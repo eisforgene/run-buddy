@@ -10,11 +10,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* apply styles to <header> */
 header {
-    padding:20px 35px;
+    padding: 20px 35px;
     background-color: #39a6b2;
-
 }
 
 header h1 {
@@ -23,10 +21,6 @@ header h1 {
     color: #fce138;
     margin: 0;
     display: inline;
-}
-
-header a {
-    color: #fce138;
 }
 
 header a {
@@ -78,13 +72,12 @@ section {
 
 /* Hero Style Start */
 .hero {
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url(./assets/images/hero-bg.jpg);
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
 }
-/* Hero Style End */
 
 .hero-form {
     border: 3px solid #024e76;
@@ -94,16 +87,16 @@ section {
     color: #024e76;
     position: absolute;
     bottom: 120px;
-    right: 140px;    
-}
-
-.hero-form p {
-    margin: 5px 0 15px 0;
+    right: 140px;
 }
 
 .hero-form h3 {
     font-size: 24px;
     margin: 0;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
 }
 
 .form-input {
@@ -125,12 +118,22 @@ section {
     background-color: #024e76;
     border: none;
     padding: 10px 20px;
-    font-size 16px;
+    font-size: 16px;
 }
-/*HERO STYLES END */
+
+/* Hero Style End */
 
 .intro {
     text-align: center;
+}
+
+.section-title {
+    font-size: 55px;
+    display: inline-block;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
 }
 
 .intro p {
@@ -138,22 +141,12 @@ section {
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
-    /* add this alongside your other delcarations */
     margin: 0 auto;
 }
 
 .steps {
     text-align: center;
     background: #fce138;
-}
-
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
 }
 
 .primary-border {
@@ -197,7 +190,7 @@ section {
     margin: 0 auto 30px auto;
     background: #024e76;
     color: #fce138;
-    overflow:auto;
+    overflow: auto;
 }
 
 .trainer img {
@@ -209,14 +202,6 @@ section {
     padding: 35px;
     float: left;
     width: 65%;
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
 }
 
 .trainer-bio h3 {
@@ -233,4 +218,52 @@ section {
 .trainer-bio p {
     font-size: 17px;
     line-height: 1.3;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.contact {
+    background: #024e76;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #fce138;
+}
+
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
+}
+
+.contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+}
+
+.contact-info h3 {
+    color: #fce138;
+    font-size: 32px;
+}
+
+.contact-info p,
+.contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.contact-info a {
+    color: #fce138;
 }
